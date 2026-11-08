@@ -1,21 +1,21 @@
 ## Easy (38)
 
-1. Two Sum
+✅1. Two Sum
 https://leetcode.com/problems/two-sum/
 
-14. Longest Common Prefix
+✅14. Longest Common Prefix
 https://leetcode.com/problems/longest-common-prefix/
 
-20. Valid Parentheses
+✅20. Valid Parentheses
 https://leetcode.com/problems/valid-parentheses/
 
 21. Merge Two Sorted Lists
 https://leetcode.com/problems/merge-two-sorted-lists/
 
-27. Remove Element
+✅27. Remove Element
 https://leetcode.com/problems/remove-element/
 
-66. Plus One
+✅66. Plus One
 https://leetcode.com/problems/plus-one/
 
 70. Climbing Stairs
