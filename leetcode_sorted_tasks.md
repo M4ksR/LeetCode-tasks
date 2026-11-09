@@ -42,7 +42,6 @@ nextNode = nextNode->next
 после цикла делаем дописываем остаток через тернарный оператор  
 currNode->next = (list1 == nullptr) ? list2 : list1;
 
-
 ---
 
 ✅27. Remove Element
@@ -102,14 +101,12 @@ https://leetcode.com/problems/maximum-depth-of-binary-tree/
 
 ---
 
-
 ✅111. Minimum Depth of Binary Tree
 https://leetcode.com/problems/minimum-depth-of-binary-tree/
 
 идея через очередь. изначально кладем root и выполняем до тех пор пока очередь не пустая. запомнили размер - столько узлов будем извлекать. взяли узел положили двух его детей. если у какого-то из детей нет дочерних узлов то вернули k + 1
 
 ---
-
 
 ✅136. Single Number
 https://leetcode.com/problems/single-number/
@@ -120,14 +117,12 @@ https://leetcode.com/problems/single-number/
 
 ---
 
-
 ✅141. Linked List Cycle
 https://leetcode.com/problems/linked-list-cycle/
 
 использовать алгоритм флойда slow-fast. slow делает 1 шаг вперед, fast делает 2 шага вперед
 
 ---
-
 
 ✅169. Majority Element
 https://leetcode.com/problems/majority-element/
@@ -150,7 +145,6 @@ return can;  $\Rightarrow$  4 - ответ
 
 ---
 
-
 ✅171. Excel Sheet Column Number
 https://leetcode.com/problems/excel-sheet-column-number/
 
@@ -160,14 +154,12 @@ https://leetcode.com/problems/excel-sheet-column-number/
 
 ---
 
-
 ❌190. Reverse Bits
 https://leetcode.com/problems/reverse-bits/
 
 
 
 ---
-
 
 ❌191. Number of 1 Bits
 https://leetcode.com/problems/number-of-1-bits/
@@ -176,14 +168,12 @@ https://leetcode.com/problems/number-of-1-bits/
 
 ---
 
-
 ✅202. Happy Number
 https://leetcode.com/problems/happy-number/
 
 создать 2 указателя. первый делает 1 действие, второй 2 действия. если существует цикл то рано или поздно второй будет равен первому
 
 ---
-
 
 ❌205. Isomorphic Strings
 https://leetcode.com/problems/isomorphic-strings/
@@ -192,14 +182,12 @@ https://leetcode.com/problems/isomorphic-strings/
 
 ---
 
-
 ❌206. Reverse Linked List
 https://leetcode.com/problems/reverse-linked-list/
 
 
 
 ---
-
 
 ❌217. Contains Duplicate
 https://leetcode.com/problems/contains-duplicate/
@@ -208,14 +196,12 @@ https://leetcode.com/problems/contains-duplicate/
 
 ---
 
-
 ❌226. Invert Binary Tree
 https://leetcode.com/problems/invert-binary-tree/
 
 
 
 ---
-
 
 ❌228. Summary Ranges
 https://leetcode.com/problems/summary-ranges/
@@ -224,14 +210,12 @@ https://leetcode.com/problems/summary-ranges/
 
 ---
 
-
 ❌242. Valid Anagram
 https://leetcode.com/problems/valid-anagram/
 
 
 
 ---
-
 
 ❌268. Missing Number
 https://leetcode.com/problems/missing-number/
@@ -240,14 +224,12 @@ https://leetcode.com/problems/missing-number/
 
 ---
 
-
 ❌278. First Bad Version
 https://leetcode.com/problems/first-bad-version/
 
 
 
 ---
-
 
 ❌283. Move Zeroes
 https://leetcode.com/problems/move-zeroes/
@@ -256,14 +238,12 @@ https://leetcode.com/problems/move-zeroes/
 
 ---
 
-
 ❌338. Counting Bits
 https://leetcode.com/problems/counting-bits/
 
 
 
 ---
-
 
 ❌350. Intersection of Two Arrays II
 https://leetcode.com/problems/intersection-of-two-arrays-ii/
@@ -272,14 +252,12 @@ https://leetcode.com/problems/intersection-of-two-arrays-ii/
 
 ---
 
-
 ❌485. Max Consecutive Ones
 https://leetcode.com/problems/max-consecutive-ones/
 
 
 
 ---
-
 
 ❌543. Diameter of Binary Tree
 https://leetcode.com/problems/diameter-of-binary-tree/
@@ -288,14 +266,12 @@ https://leetcode.com/problems/diameter-of-binary-tree/
 
 ---
 
-
 ❌637. Average of Levels in Binary Tree
 https://leetcode.com/problems/average-of-levels-in-binary-tree/
 
 
 
 ---
-
 
 ❌680. Valid Palindrome II
 https://leetcode.com/problems/valid-palindrome-ii/
@@ -304,14 +280,12 @@ https://leetcode.com/problems/valid-palindrome-ii/
 
 ---
 
-
 ❌703. Kth Largest Element in a Stream
 https://leetcode.com/problems/kth-largest-element-in-a-stream/
 
 
 
 ---
-
 
 ❌704. Binary Search
 https://leetcode.com/problems/binary-search/
@@ -320,7 +294,6 @@ https://leetcode.com/problems/binary-search/
 
 ---
 
-
 ❌771. Jewels and Stones
 https://leetcode.com/problems/jewels-and-stones/
 
@@ -328,14 +301,12 @@ https://leetcode.com/problems/jewels-and-stones/
 
 ---
 
-
 ❌1791. Find Center of Star Graph
 https://leetcode.com/problems/find-center-of-star-graph/
 
 
 
 ---
-
 
 ❌3194. Minimum Average of Smallest and Largest Elements
 https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/
