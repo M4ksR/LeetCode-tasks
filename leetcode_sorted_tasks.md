@@ -1,7 +1,7 @@
 ## 🟡Easy 
 ```
-✅ - 16
-❌ - 22
+✅ - 24
+❌ - 14
 ```
 
 ✅1. Two Sum
@@ -154,17 +154,21 @@ https://leetcode.com/problems/excel-sheet-column-number/
 
 ---
 
-❌190. Reverse Bits
+✅190. Reverse Bits
 https://leetcode.com/problems/reverse-bits/
 
+взяли последний бит через & 1  
+результат на 1 бит влево через << и приписали полученный бит через |  
+число на 1 вправо  
 
+так 32 раза
 
 ---
 
-❌191. Number of 1 Bits
+✅191. Number of 1 Bits
 https://leetcode.com/problems/number-of-1-bits/
 
-
+проходимся по битам через & >> и считаем единички
 
 ---
 
@@ -175,31 +179,37 @@ https://leetcode.com/problems/happy-number/
 
 ---
 
-❌205. Isomorphic Strings
+✅205. Isomorphic Strings
 https://leetcode.com/problems/isomorphic-strings/
 
-
+сделать функцию проверки одного направления и проверить сначала s→t потом t→s либо создать 2 хешмапы и сразу проверять оба направления
 
 ---
 
-❌206. Reverse Linked List
+✅206. Reverse Linked List
 https://leetcode.com/problems/reverse-linked-list/
 
+создать 2 указателя currNode и nextNode. идти слева направо  
 
+ListNode* tmp = nextNode->next;  
+nextNode->next = currNode;  
+currNode = nextNode;  
+nextNode = tmp;  
 
 ---
 
-❌217. Contains Duplicate
+✅217. Contains Duplicate
 https://leetcode.com/problems/contains-duplicate/
 
-
+новые элементы складывать в множество а при наличии такого же возвращать true
 
 ---
 
-❌226. Invert Binary Tree
+✅226. Invert Binary Tree
 https://leetcode.com/problems/invert-binary-tree/
 
-
+очередью / рекурсивно идем по каждому элементу дерева и меняем 2 его узла
+nullptr в очередь не добавляем
 
 ---
 
@@ -210,17 +220,20 @@ https://leetcode.com/problems/summary-ranges/
 
 ---
 
-❌242. Valid Anagram
+✅242. Valid Anagram
 https://leetcode.com/problems/valid-anagram/
 
-
+использовать хешмапу / сделать массив на 26 символов: ++s и --t. если в конце найдется ненулевое число то false иначе true
 
 ---
 
-❌268. Missing Number
+✅268. Missing Number
 https://leetcode.com/problems/missing-number/
 
+n = vec.size()  
+expectedSum = n * (n + 1) / 2
 
+вернуть expectedSum - actualSum
 
 ---
 
