@@ -237,10 +237,10 @@ expectedSum = n * (n + 1) / 2
 
 ---
 
-❌278. First Bad Version
+✅278. First Bad Version
 https://leetcode.com/problems/first-bad-version/
 
-
+бинарный поиск в [0,n]
 
 ---
 
