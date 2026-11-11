@@ -244,17 +244,22 @@ https://leetcode.com/problems/first-bad-version/
 
 ---
 
-❌283. Move Zeroes
+✅283. Move Zeroes
 https://leetcode.com/problems/move-zeroes/
 
+ведем два указателя. i - место слева куда будем делать swap и j - текущий элемент
+
+swap(nums[j], nums[i++]) в случае если nums[j] $\ne$ 0 
 
 
 ---
 
-❌338. Counting Bits
+✅338. Counting Bits
 https://leetcode.com/problems/counting-bits/
 
-
+$$  
+dp[i] = 1 + dp[i\ \&\ (i - 1)]  
+$$  
 
 ---
 
