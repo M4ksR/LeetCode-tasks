@@ -1,7 +1,7 @@
 ## 🟡Easy 
 ```
-✅ - 24
-❌ - 14
+✅ - 30
+❌ - 8
 ```
 
 ✅1. Two Sum
@@ -251,7 +251,6 @@ https://leetcode.com/problems/move-zeroes/
 
 swap(nums[j], nums[i++]) в случае если nums[j] $\ne$ 0 
 
-
 ---
 
 ✅338. Counting Bits
@@ -263,17 +262,18 @@ $$
 
 ---
 
-❌350. Intersection of Two Arrays II
+✅350. Intersection of Two Arrays II
 https://leetcode.com/problems/intersection-of-two-arrays-ii/
 
-
+собираем буквы наименьшего вектора в хешмапу. проходимся по наибольшему и складываем одинаковые в новый массив
 
 ---
 
-❌485. Max Consecutive Ones
+✅485. Max Consecutive Ones
 https://leetcode.com/problems/max-consecutive-ones/
 
-
+ноль - сбросили счетчик, единица - прибавили счетчик
+вернули максимум из счетчика / максимального значения
 
 ---
 
@@ -305,10 +305,12 @@ https://leetcode.com/problems/kth-largest-element-in-a-stream/
 
 ---
 
-❌704. Binary Search
+✅704. Binary Search
 https://leetcode.com/problems/binary-search/
 
-
+l = 0, r = nums.size() - 1
+left = mid + 1
+right = mid - 1
 
 ---
 
