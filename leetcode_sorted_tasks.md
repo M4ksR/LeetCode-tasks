@@ -1,7 +1,7 @@
 ## 🟡Easy 
 ```
-✅ - 30
-❌ - 8
+✅ - 31
+❌ - 7
 ```
 
 ✅1. Two Sum
@@ -256,9 +256,7 @@ swap(nums[j], nums[i++]) в случае если nums[j] $\ne$ 0
 ✅338. Counting Bits
 https://leetcode.com/problems/counting-bits/
 
-$$  
-dp[i] = 1 + dp[i\ \&\ (i - 1)]  
-$$  
+$dp[i] = 1 + dp[i\ \&\ (i - 1)]$
 
 ---
 
@@ -314,10 +312,10 @@ right = mid - 1
 
 ---
 
-❌771. Jewels and Stones
+✅771. Jewels and Stones
 https://leetcode.com/problems/jewels-and-stones/
 
-
+использовать статический массив типа bool на 128 элементов. значение буквы в таблице ASCII = индекс
 
 ---
 
