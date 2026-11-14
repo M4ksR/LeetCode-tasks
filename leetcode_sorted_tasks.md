@@ -1,7 +1,7 @@
 ## 🟡Easy 
 ```
-✅ - 31
-❌ - 7
+✅ - 34
+❌ - 4
 ```
 
 ✅1. Two Sum
@@ -213,10 +213,11 @@ nullptr в очередь не добавляем
 
 ---
 
-❌228. Summary Ranges
+✅228. Summary Ranges
 https://leetcode.com/problems/summary-ranges/
 
-
+если r > 0 и s[r] - s[r-1] != 1 то складываем s[l]->s[r-1] и перемещаем l на r  
+если r = s.size() - 1 то складываем s[l]->s[r]  
 
 ---
 
@@ -275,17 +276,22 @@ https://leetcode.com/problems/max-consecutive-ones/
 
 ---
 
-❌543. Diameter of Binary Tree
+✅543. Diameter of Binary Tree
 https://leetcode.com/problems/diameter-of-binary-tree/
 
-
+ищем left - глубину левого поддерева и right - глубину правого поддерева  
+на каждом шаге рекурсии обновляем mx = max(mx, left + right)  
+возвращаем 1 + max(left, right)
 
 ---
 
-❌637. Average of Levels in Binary Tree
+✅637. Average of Levels in Binary Tree
 https://leetcode.com/problems/average-of-levels-in-binary-tree/
 
-
+запомнили количество узлов на уровне и начинаем извлекать  
+во время извлечения считаем сумму и добавляем детей если они не nullptr  
+после извлечения кладем в вектор среднее арифметическое  
+выполняем до тех пор пока не пройдем все уровни
 
 ---
 
