@@ -1,7 +1,7 @@
 ## 🟡Easy 
 ```
-✅ - 34
-❌ - 4
+✅ - 36
+❌ - 2
 ```
 
 ✅1. Two Sum
@@ -257,7 +257,9 @@ swap(nums[j], nums[i++]) в случае если nums[j] $\ne$ 0
 ✅338. Counting Bits
 https://leetcode.com/problems/counting-bits/
 
-$dp[i] = 1 + dp[i\ \&\ (i - 1)]$
+```math
+dp[i] = 1 + dp[i\ \&\ (i - 1)]
+```
 
 ---
 
@@ -295,17 +297,19 @@ https://leetcode.com/problems/average-of-levels-in-binary-tree/
 
 ---
 
-❌680. Valid Palindrome II
+✅680. Valid Palindrome II
 https://leetcode.com/problems/valid-palindrome-ii/
 
-
+проверять строку на палиндром. если нашли несовпадение то попробовать сдвинуть левый  
+а потом правый указатель. если одна из этих подстрок палиндром то исходная строка нам подходит
 
 ---
 
-❌703. Kth Largest Element in a Stream
+✅703. Kth Largest Element in a Stream
 https://leetcode.com/problems/kth-largest-element-in-a-stream/
 
-
+> [!IMPORTANT]
+> Решить через heap
 
 ---
 
