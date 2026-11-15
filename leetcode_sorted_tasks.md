@@ -1,7 +1,7 @@
-## 🟡Easy 
+## ✅Easy 
 ```
-✅ - 36
-❌ - 2
+✅ - 38
+❌ - 0
 ```
 
 ✅1. Two Sum
@@ -329,17 +329,17 @@ https://leetcode.com/problems/jewels-and-stones/
 
 ---
 
-❌1791. Find Center of Star Graph
+✅1791. Find Center of Star Graph
 https://leetcode.com/problems/find-center-of-star-graph/
 
-
+у звездного графа вершина находится в каждом ребре => по первым двум элементам можно найти вершину
 
 ---
 
-❌3194. Minimum Average of Smallest and Largest Elements
+✅3194. Minimum Average of Smallest and Largest Elements
 https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/
 
-
+достаточно пустить 2 указателя с конца и с начала. считать среднее арифметическое и запоминать минимум
 
 ---
 
