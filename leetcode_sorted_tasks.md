@@ -346,21 +346,23 @@ https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/
 
 ## 🟡Medium
 ```
-✅ - 0
-❌ - 116
+✅ - 3
+❌ - 113
 ```
 
-❌2. Add Two Numbers
+✅2. Add Two Numbers
 https://leetcode.com/problems/add-two-numbers/
 
-
+проходимся по массиву до тех пор пока (l1 != nullptr || l2 != nullptr || ost != 0)  
+вычисляем сумму, остаток, создаем новый узел и переходим на следующий уровень
 
 ---
 
-❌3. Longest Substring Without Repeating Characters
+✅3. Longest Substring Without Repeating Characters
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
-
+запоминаем позицию каждого символа. если встретили символ снова и левый указатель  
+лежит за пределами окна то перебрасываем левый указатель на pos + 1
 
 ---
 
@@ -371,10 +373,16 @@ https://leetcode.com/problems/longest-palindromic-substring/
 
 ---
 
-❌11. Container With Most Water
+✅11. Container With Most Water
 https://leetcode.com/problems/container-with-most-water/
 
+создаем левый и правый указатели. объем считаем по формуле
 
+```math
+(r - l) \cdot \text{min}(height[l], height[r])
+```
+
+сдвигаем указатель у которого наименьшая высота
 
 ---
 
