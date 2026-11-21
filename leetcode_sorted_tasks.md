@@ -346,8 +346,8 @@ https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/
 
 ## 🟡Medium
 ```
-✅ - 7
-❌ - 109
+✅ - 8
+❌ - 108
 ```
 
 ✅2. Add Two Numbers
@@ -471,10 +471,10 @@ https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-
 
 ---
 
-❌38. Count and Say
+✅38. Count and Say
 https://leetcode.com/problems/count-and-say/
 
-
+реализовать алгоритм RLE
 
 ---
 
