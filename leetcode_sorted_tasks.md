@@ -346,8 +346,8 @@ https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/
 
 ## 🟡Medium
 ```
-✅ - 3
-❌ - 113
+✅ - 7
+❌ - 109
 ```
 
 ✅2. Add Two Numbers
@@ -407,10 +407,13 @@ https://leetcode.com/problems/3sum/
 
 ---
 
-❌17. Letter Combinations of a Phone Number
+✅17. Letter Combinations of a Phone Number
 https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 
-
+если длина строки = длине digits то завершаем рекурсию  
+иначе смотрим какие буквы у нас есть для нашей цифры  
+начинаем перебирать эти буквы, дописывать их к нашему слову  
+и двигать индекс текущей цифры
 
 ---
 
@@ -421,17 +424,29 @@ https://leetcode.com/problems/4sum/
 
 ---
 
-❌19. Remove Nth Node From End of List
+✅19. Remove Nth Node From End of List
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
+создаем 2 указателя slow и fast  
+делаем между ними разницу в n  
 
+если fast уже nullptr то возвращаем slow->next потому что  
+просят удалить голову списка  
+
+иначе начинаем двигать по 1 пока не увидим что fast->next == nullptr  
+когда достигли этого момента нужно поменять slow->next на (slow->next)->next
 
 ---
 
-❌22. Generate Parentheses
+✅22. Generate Parentheses
 https://leetcode.com/problems/generate-parentheses/
 
+если количество открытых и закрытых скобок равно n то выходим из рекурсии  
+если количество открытых скобок > 0 то можно добавить закрытую  
+если количество открытых скобок < n то можно добавить еще одну открытую  
 
+нужно вести учет открытых скобок в текущий момент и общее количество  
+открытых скобок
 
 ---
 
