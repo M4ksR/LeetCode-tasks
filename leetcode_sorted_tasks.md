@@ -346,8 +346,8 @@ https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/
 
 ## 🟡Medium
 ```
-✅ - 8
-❌ - 108
+✅ - 10
+❌ - 106
 ```
 
 ✅2. Add Two Numbers
@@ -450,10 +450,13 @@ https://leetcode.com/problems/generate-parentheses/
 
 ---
 
-❌31. Next Permutation
+✅31. Next Permutation
 https://leetcode.com/problems/next-permutation/
 
-
+сначала находим первый элемент который будет меньше следующего  
+находим наименьшее число которое больше этого элемента и меняем их местами  
+разворачиваем все что находится справа (тк там убывающая последовательность)  
+если последовательность полностью убывающая то просто разворачиваем ее целиком  
 
 ---
 
