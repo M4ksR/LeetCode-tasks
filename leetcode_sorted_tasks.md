@@ -502,10 +502,11 @@ https://leetcode.com/problems/multiply-strings/
 
 ---
 
-❌46. Permutations
+✅46. Permutations
 https://leetcode.com/problems/permutations/
 
-
+следующую перестановку генерируем как в 31 задаче. останавливаемся  
+когда вернулись в исходное расположение элементов  
 
 ---
 
