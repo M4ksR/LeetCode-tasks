@@ -517,10 +517,11 @@ https://leetcode.com/problems/group-anagrams/
 
 ---
 
-❌50. Pow(x, n)
+✅50. Pow(x, n)
 https://leetcode.com/problems/powx-n/
 
-
+при n < 0 сначала возводим X в степень а затем делим единичку на результат  
+учитываем случай n = -2^31 с помощью long long  
 
 ---
 
