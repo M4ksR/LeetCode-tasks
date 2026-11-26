@@ -1206,11 +1206,11 @@ https://leetcode.com/problems/maximize-the-total-height-of-unique-towers/
 
 ## 🟡Hard (15)
 ```
-✅ - 0
-❌ - 15
+✅ - 1
+❌ - 14
 ```
 
-❌4. Median of Two Sorted Arrays
+✅4. Median of Two Sorted Arrays
 https://leetcode.com/problems/median-of-two-sorted-arrays/
 
 
