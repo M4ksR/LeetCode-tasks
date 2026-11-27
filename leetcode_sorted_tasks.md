@@ -346,8 +346,8 @@ https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/
 
 ## 🟡Medium
 ```
-✅ - 10
-❌ - 106
+✅ - 14
+❌ - 102
 ```
 
 ✅2. Add Two Numbers
@@ -417,10 +417,11 @@ https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 
 ---
 
-❌18. 4Sum
+✅18. 4Sum
 https://leetcode.com/problems/4sum/
 
-
+перебираем i из диапазона [0, n - 3) и j из диапазона [i + 1, n - 2)  
+далее решаем TwoSum. находим newTarget и двигаем указатели в зависимости от разницы  
 
 ---
 
@@ -460,17 +461,20 @@ https://leetcode.com/problems/next-permutation/
 
 ---
 
-❌33. Search in Rotated Sorted Array
+✅33. Search in Rotated Sorted Array
 https://leetcode.com/problems/search-in-rotated-sorted-array/
 
-
+сначала находим l и r - индексы перехода где nums[l] > nums[r]  
+затем запускаем бинарный поиск от 0 до r и от l до n-1  
 
 ---
 
-❌34. Find First and Last Position of Element in Sorted Array
+✅34. Find First and Last Position of Element in Sorted Array
 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
-
+делаем 2 бинарных поиска. в одном при nums[m] == target двигаем левый указатель  
+во втором - правый. по итогу получим 2 позиции left right от которых нужно сделать $\pm$ 1  
+если res1 > res2 то возвращаем {-1,-1} иначе {res1,res2}  
 
 ---
 
