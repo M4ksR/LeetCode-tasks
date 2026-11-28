@@ -1218,7 +1218,32 @@ https://leetcode.com/problems/maximize-the-total-height-of-unique-towers/
 ✅4. Median of Two Sorted Arrays
 https://leetcode.com/problems/median-of-two-sorted-arrays/
 
+с помощью бинарного поиска необходимо найти разделение двух массивов так  
+чтобы любой элемент из левой части был меньше чем любой элемент из правой части  
 
+в левой части должно быть либо столько же элементов сколько и в правой  
+либо на единицу больше  
+
+то есть количество элементов lenHalf = $\frac{leng + 1}{2}$ 
+
+выполнять будем бинарный поиск по массиву наименьшей длины  
+mid будет говорить нам сколько элементов в наименьшем массиве мы взяли  
+
+поэтому left1 = nums1[mid - 1] и right1 = nums1[mid]
+
+для второго массива будем брать оставшееся количество элементов  
+то есть m2 = lenHalf - mid
+
+поэтому left2 = nums2[m2 - 1] и right2 = nums2[m2]  
+
+> [!IMPORTANT]
+> важно проверить что нет выхода за границу  
+> при mid > 0 берем [mid-1] иначе INT_MIN, при mid < n берем [mid] иначе INT_MAX  
+> аналогично для m2  
+
+после разбиения остается взять медиану в зависимости от commonSize = m + n  
+если commonSize четное то max(leftNums1, leftNums2)  
+иначе (max(leftNums1, leftNums2) + min(rightNums1, rightNums2)) / 2  
 
 ---
 
